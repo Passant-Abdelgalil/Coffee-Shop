@@ -86,10 +86,25 @@ cd into the `frontend` directory and run:
 ```bash
 ionic serve
 ```
+### Accounts with assigned roles for testing:
+- Manager:
+```
+E-mail: manager123@gmail.com
+Password: managerPassword00
+```
+- Barista:
+```
+E-mail: barista123@gmail.com
+Password: baristaPassword00
+```
 
 ## Testing with Postman
 
 [Postman](https://getpostman.com). 
 
+`Use Desktop Agent not the cloud agent`
+
 - Import the postman collection `./starter_code/backend/udacity-fsnd-udaspicelatte.postman_collection.json`
 - Run the collection
+
+`some tests may fail due to token expiration, if you wish you can update the tokens in the collection`
